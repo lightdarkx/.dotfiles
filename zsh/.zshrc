@@ -10,7 +10,7 @@ fi
 
 # Sources
 source ~/.config/zsh/init.zsh
-
+source ~/.config/zsh/scripts/zsh-syntax-highlighting.sh
 
 # Set up the prompt
 
@@ -63,6 +63,7 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug 'zsh-users/zsh-autosuggestions'
 zplug 'zsh-users/zsh-completions'
 zplug 'zsh-users/zsh-history-substring-search'
+#zplug 'dracula/zsh' 
 #zplug 'starship/starship'
 
 zplug load
@@ -87,6 +88,7 @@ alias la='ls -A'
 alias lal='ls -Al'
 alias l='exa --icons'
 alias ll='l -lh'
+alias df='df -h'
 alias mkdir='mkdir -p'
 alias grep='grep --color=auto'
 alias mpva='mpv --no-video'

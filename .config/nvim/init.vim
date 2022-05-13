@@ -11,6 +11,7 @@ Plug 'scrooloose/nerdtree'
 "Plug 'arcticicestudio/nord-vim'
 "Plug 'joshdick/onedark.vim'
 Plug 'haishanh/night-owl.vim'
+Plug 'dracula/vim'
 call plug#end()
 
 "Settings
@@ -23,7 +24,7 @@ let g:incsearch#auto_hlsearch = 1
 "let g:solarized_termcolors=256
 "let g:base16colorspace=256
 "set background=dark
-colorscheme night-owl
+colorscheme dracula
 set termguicolors
 
 "Mappings
