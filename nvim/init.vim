@@ -10,8 +10,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 "Plug 'arcticicestudio/nord-vim'
 "Plug 'joshdick/onedark.vim'
-Plug 'haishanh/night-owl.vim'
+"Plug 'haishanh/night-owl.vim'
 Plug 'dracula/vim'
+Plug 'fladson/vim-kitty'
 call plug#end()
 
 "Settings
