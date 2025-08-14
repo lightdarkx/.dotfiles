@@ -85,7 +85,7 @@ bindkey -M emacs '^N' history-substring-search-down
 # Aliases
 alias ls='ls --color=auto'
 alias la='ls -A'
-alias lal='ls -Al'
+alias lA='ls -Al'
 alias l='exa --icons'
 alias ll='l -lh'
 alias df='df -h'
